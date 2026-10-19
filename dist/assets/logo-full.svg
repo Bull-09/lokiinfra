@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 64" role="img" aria-label="Loki Infrastructure &amp; Developers">
+  <rect x="4" y="8" width="9" height="48" fill="#0F1720"/>
+  <rect x="4" y="47" width="48" height="9" fill="#0F1720"/>
+  <polygon points="13,38 42,8 52,8 52,18 23,47 13,47" fill="#F2A900"/>
+  <text x="68" y="38" font-family="Archivo, Arial Black, sans-serif" font-weight="800" font-size="34" letter-spacing="3" fill="#0F1720">LOKI</text>
+  <text x="69" y="55" font-family="Archivo, Arial, sans-serif" font-weight="600" font-size="10.5" letter-spacing="2.6" fill="#5B6670">INFRASTRUCTURE &amp; DEVELOPERS</text>
+</svg>

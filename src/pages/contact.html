@@ -1,0 +1,68 @@
+---
+title: Contact LOKI Infra — Request a Proposal | Surat, Gujarat
+description: Request a proposal from Loki Infrastructure & Developers. Share your project type, size, location and timeline and a director will respond within one business day.
+nav: contact
+body_class: page-light
+---
+<section class="section" style="padding-top:150px">
+  <div class="wrap form-wrap">
+    <div class="contact-card reveal">
+      <div>
+        <span class="eyebrow">Contact</span>
+        <h1 style="font-size:clamp(2.2rem,4.6vw,3.6rem);font-weight:800;margin:18px 0 16px;letter-spacing:-.03em">Let’s build it right.</h1>
+        <p class="small" style="color:var(--muted);font-size:1.06rem">Tell us about your project and a director will respond within one business day.</p>
+      </div>
+      <div class="item"><span class="mono">Call</span><a href="tel:{{PHONE_LINK}}">{{PHONE}}</a></div>
+      <div class="item"><span class="mono">Email</span><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></div>
+      <div class="item"><span class="mono">WhatsApp</span><a href="https://wa.me/{{WHATSAPP}}" target="_blank" rel="noopener">Chat with us →</a></div>
+      <div class="item"><span class="mono">Head office</span><p class="small">{{ADDRESS_1}},<br>{{ADDRESS_2}}</p></div>
+    </div>
+
+    <form class="rfp reveal" data-email="{{EMAIL}}" style="--rd:.1s">
+      <h2>Request a Proposal</h2>
+      <p>The more you share, the more useful our first conversation will be.</p>
+      <div class="field-grid">
+        <div class="field"><label for="f-name">Your name *</label><input id="f-name" name="Name" required autocomplete="name"></div>
+        <div class="field"><label for="f-company">Company *</label><input id="f-company" name="Company" required autocomplete="organization"></div>
+        <div class="field"><label for="f-email">Email *</label><input id="f-email" name="Email" type="email" required autocomplete="email"></div>
+        <div class="field"><label for="f-phone">Phone *</label><input id="f-phone" name="Phone" type="tel" required autocomplete="tel"></div>
+
+        <div class="field full">
+          <label>Project type</label>
+          <div class="chips">
+            <label><input type="radio" name="Project type" value="Industrial"><span>Industrial</span></label>
+            <label><input type="radio" name="Project type" value="Warehousing"><span>Warehousing</span></label>
+            <label><input type="radio" name="Project type" value="Commercial"><span>Commercial</span></label>
+            <label><input type="radio" name="Project type" value="Institutional"><span>Institutional</span></label>
+            <label><input type="radio" name="Project type" value="Residential"><span>Residential</span></label>
+            <label><input type="radio" name="Project type" value="Infrastructure"><span>Infrastructure</span></label>
+            <label><input type="radio" name="Project type" value="Other"><span>Other</span></label>
+          </div>
+        </div>
+
+        <div class="field"><label for="f-location">Project location</label><input id="f-location" name="Location" placeholder="City, State"></div>
+        <div class="field"><label for="f-area">Approx. built-up area</label><input id="f-area" name="Built-up area" placeholder="e.g. 50,000 sq ft"></div>
+        <div class="field">
+          <label for="f-budget">Estimated budget</label>
+          <select id="f-budget" name="Budget">
+            <option value="">Select a range</option>
+            <option>Under ₹5 Cr</option><option>₹5 – 25 Cr</option><option>₹25 – 100 Cr</option><option>₹100 Cr +</option><option>Not decided yet</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-stage">Current stage</label>
+          <select id="f-stage" name="Stage">
+            <option value="">Select a stage</option>
+            <option>Land / feasibility</option><option>Design in progress</option><option>Design ready, tendering</option><option>Construction underway</option><option>Near completion / handover</option>
+          </select>
+        </div>
+        <div class="field full"><label for="f-msg">Tell us about the project</label><textarea id="f-msg" name="Message" placeholder="Scope, timelines, specific challenges…"></textarea></div>
+      </div>
+      <div class="form-foot">
+        <small>Your details are used only to respond to this enquiry.</small>
+        <button class="btn btn-amber" type="submit">Send enquiry <span class="arrow">→</span></button>
+      </div>
+      <p class="form-status" role="status">Thanks! Your email app should open with the enquiry ready to send.</p>
+    </form>
+  </div>
+</section>

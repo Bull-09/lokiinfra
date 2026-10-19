@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="LOKI Infra mark">
+  <!-- Column + beam form the "L"; the amber brace is the structural diagonal (and the stroke of a "K"). -->
+  <rect x="4" y="4" width="9" height="40" fill="#0F1720"/>
+  <rect x="4" y="35" width="40" height="9" fill="#0F1720"/>
+  <polygon points="13,27 36,4 44,4 44,12 21,35 13,35" fill="#F2A900"/>
+</svg>

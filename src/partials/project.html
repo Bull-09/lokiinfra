@@ -1,0 +1,53 @@
+<section class="page-hero blueprint-bg">
+  <div class="wrap">
+    <span class="eyebrow">{{P_CATEGORY}}</span>
+    <h1>{{P_TITLE}}</h1>
+    <p>{{P_LOCATION}}</p>
+    <span class="crumb mono">HOME / PROJECTS / {{P_CATEGORY_UPPER}}</span>
+  </div>
+</section>
+
+<article class="section case" aria-labelledby="p-summary">
+  <div class="wrap">
+    <p class="back-link"><a href="projects.html"><span aria-hidden="true">←</span> All projects</a></p>
+    <h2 id="p-summary" class="sr-only">Project summary</h2>
+    <p class="cs-answer reveal">{{P_LEAD}}</p>
+
+    <div class="cs-grid">
+      {{P_VISUAL}}
+      <aside class="cs-facts reveal" aria-label="Project facts">
+        <dl>{{P_FACTS}}</dl>
+        <a class="btn" href="contact.html">Discuss a similar project <span class="arrow">→</span></a>
+      </aside>
+    </div>
+
+    <h2 class="cs-sub reveal">Scope of work</h2>
+    <div class="scope-list">{{P_SCOPE}}</div>
+
+    <div class="campus campus-text">
+      <div class="campus-points reveal">
+        <h2>Why it matters</h2>
+        <ul>{{P_HIGHLIGHTS}}</ul>
+      </div>
+    </div>
+
+    {{P_GALLERY}}
+
+    <nav class="proj-nav" aria-label="More projects">
+      <a href="{{P_PREV_URL}}"><span class="mono">Previous project</span><strong>{{P_PREV_TITLE}}</strong></a>
+      <a href="{{P_NEXT_URL}}"><span class="mono">Next project</span><strong>{{P_NEXT_TITLE}}</strong></a>
+    </nav>
+  </div>
+</article>
+
+<script type="application/ld+json">{{P_SCHEMA}}</script>
+
+<section class="cta blueprint-bg">
+  <div class="wrap cta-inner">
+    <h2>Planning something similar? <em>Let’s talk.</em></h2>
+    <div>
+      <p>Tell us about your site, scope and timeline. A director will get back to you within one business day.</p>
+      <div class="cta-actions"><a class="btn btn-amber" href="contact.html">Request a Proposal <span class="arrow">→</span></a></div>
+    </div>
+  </div>
+</section>

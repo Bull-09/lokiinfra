@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!-- Blueprint-style line drawings, used via <use href="assets/art.svg#id">. Stroke = currentColor. -->
+  <symbol id="grid" viewBox="0 0 400 300">
+    <g stroke="currentColor" stroke-width=".5" opacity=".35" fill="none">
+      <path d="M0 50H400M0 100H400M0 150H400M0 200H400M0 250H400M50 0V300M100 0V300M150 0V300M200 0V300M250 0V300M300 0V300M350 0V300"/>
+    </g>
+  </symbol>
+
+  <symbol id="factory" viewBox="0 0 400 300">
+    <use href="#grid"/>
+    <g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linejoin="round">
+      <path d="M30 240H370"/>
+      <path d="M60 240V150L110 120V150L160 120V150L210 120V150L260 120V150L260 240"/>
+      <path d="M260 240V100H340V240"/>
+      <path d="M285 100V40H305V100"/><path d="M282 40H308"/>
+      <path d="M80 200H110V240M150 200H180V240M200 200H230V240"/>
+      <path d="M275 125H325M275 150H325M275 175H325M275 200H325"/>
+      <path d="M60 262H340" stroke-dasharray="4 4"/><path d="M60 256V268M340 256V268"/>
+    </g>
+  </symbol>
+
+  <symbol id="warehouse" viewBox="0 0 400 300">
+    <use href="#grid"/>
+    <g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linejoin="round">
+      <path d="M20 240H380"/>
+      <path d="M40 240V140L200 80L360 140V240"/>
+      <path d="M40 140H360" stroke-dasharray="3 5"/>
+      <path d="M70 240V190H110V240M130 240V190H170V240M190 240V190H230V240M250 240V190H290V240"/>
+      <path d="M70 205H110M130 205H170M190 205H230M250 205H290"/>
+      <path d="M310 240V205H335V240"/>
+      <path d="M200 80V60M190 60H210"/>
+    </g>
+  </symbol>
+
+  <symbol id="office" viewBox="0 0 400 300">
+    <use href="#grid"/>
+    <g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linejoin="round">
+      <path d="M20 260H380"/>
+      <path d="M140 260V40H260V260"/>
+      <path d="M140 70H260M140 100H260M140 130H260M140 160H260M140 190H260M140 220H260"/>
+      <path d="M170 40V260M200 40V260M230 40V260" opacity=".6"/>
+      <path d="M60 260V150H140M260 170H340V260"/>
+      <path d="M60 180H140M60 210H140M260 200H340M260 230H340"/>
+      <path d="M180 260V236H220V260"/>
+    </g>
+  </symbol>
+
+  <symbol id="retail" viewBox="0 0 400 300">
+    <use href="#grid"/>
+    <g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linejoin="round">
+      <path d="M20 250H380"/>
+      <path d="M40 250V120H360V250"/>
+      <path d="M30 170H370L350 190H50Z"/>
+      <path d="M70 250V205H130V250M170 250V205H230V250M270 250V205H330V250"/>
+      <path d="M40 120L80 90H320L360 120"/>
+      <path d="M140 140H260"/>
+    </g>
+  </symbol>
+
+  <symbol id="hospital" viewBox="0 0 400 300">
+    <use href="#grid"/>
+    <g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linejoin="round">
+      <path d="M20 255H380"/>
+      <path d="M60 255V110H340V255"/>
+      <path d="M150 110V60H250V110"/>
+      <path d="M190 72H210V82H220V98H210V108H190V98H180V82H190Z" transform="translate(0,-8)"/>
+      <path d="M60 145H340M60 180H340M60 215H340"/>
+      <path d="M100 110V255M140 110V255M260 110V255M300 110V255" opacity=".5"/>
+      <path d="M175 255V225H225V255"/>
+    </g>
+  </symbol>
+
+  <symbol id="residential" viewBox="0 0 400 300">
+    <use href="#grid"/>
+    <g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linejoin="round">
+      <path d="M20 260H380"/>
+      <path d="M90 260V50H180V260M210 260V90H300V260"/>
+      <path d="M90 80H180M90 110H180M90 140H180M90 170H180M90 200H180M90 230H180"/>
+      <path d="M210 120H300M210 150H300M210 180H300M210 210H300M210 240H300"/>
+      <path d="M135 50V260M255 90V260" opacity=".5"/>
+      <path d="M320 260V200H360V260" />
+    </g>
+  </symbol>
+
+  <symbol id="infra" viewBox="0 0 400 300">
+    <use href="#grid"/>
+    <g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linejoin="round">
+      <path d="M0 150H400"/>
+      <path d="M170 150L40 300M230 150L360 300"/>
+      <path d="M200 160V180M200 200V230M200 255V300" stroke-width="3.4"/>
+      <path d="M20 110Q200 30 380 110"/>
+      <path d="M20 110H380"/>
+      <path d="M80 110V150M140 110V150M200 110V150M260 110V150M320 110V150" opacity=".6"/>
+      <path d="M80 85V110M140 66V110M200 60V110M260 66V110M320 85V110" opacity=".6"/>
+    </g>
+  </symbol>
+
+  <symbol id="solar" viewBox="0 0 400 300">
+    <use href="#grid"/>
+    <g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linejoin="round">
+      <path d="M20 250H380"/>
+      <path d="M40 220L110 170H210L140 220Z"/><path d="M75 195H175M90 220L160 170M125 220L185 177"/>
+      <path d="M200 220L270 170H370L300 220Z"/><path d="M235 195H335M250 220L320 170M285 220L345 177"/>
+      <path d="M90 220V250M180 195V250M250 220V250M340 195V250"/>
+      <circle cx="320" cy="70" r="26"/>
+      <path d="M320 30V20M320 120V110M280 70H270M370 70H360M292 42L285 35M355 105L348 98M348 42L355 35M285 105L292 98"/>
+    </g>
+  </symbol>
+</svg>
