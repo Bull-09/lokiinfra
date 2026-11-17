@@ -66,14 +66,16 @@ def load_figures():
 
 def apply_figures(html, figures):
     def block(m):
-        return figures.get(m.group(1), m.group(0))
+        fig = figures.get(m.group(1), m.group(0))
+        # data-model tells assets/3d/loki3d.js which 3D model replaces this figure
+        return re.sub(r"<svg\b", f'<svg data-model="{m.group(1)}"', fig, count=1)
 
     def sprite(m):
         fig = figures.get(m.group(2))
         if not fig:
             return m.group(0)
         attrs = m.group(1)  # keep the slot's class so layout CSS still applies
-        return re.sub(r"<svg\b", f"<svg{attrs}", fig, count=1)
+        return re.sub(r"<svg\b", f'<svg{attrs} data-model="{m.group(2)}"', fig, count=1)
 
     html = re.sub(r"<!-- figure:(\w[\w-]*) -->.*?<!-- /figure -->", block, html, flags=re.S)
     return re.sub(r'<svg([^>]*)><use href="assets/art\.svg#([\w-]+)"/></svg>', sprite, html)
